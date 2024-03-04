@@ -56,7 +56,6 @@ def gerar_extrato(id: int):
     stmt = """
         select 
             format('{{"saldo": {{"total": %s, "data_extrato": "%s", "limite": %s }}, "ultimas_transacoes": [ %s ]}}', 
-              --(case when saldo=0 then saldo else (limite + saldo) end), 
               saldo, 
               now(), 
               limite, 
