@@ -10,5 +10,5 @@ Projeto de aprendizado para rinha de backend 2024
 - Emanuel Araujo Carneiro
 - email: emanuel@iroot.com.br
 - Linkedin: https://www.linkedin.com/in/emanuel-ac-pro/
-- Twitter: @eacshm
+- Twitter: https://twitter.com/eacshm
 
