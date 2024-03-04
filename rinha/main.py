@@ -8,7 +8,6 @@ app = FastAPI()
 
 @app.post("/clientes/{id}/transacoes")
 async def criar_transacao(id: int, transacao: Transacoes):
-    #import pdb; pdb.set_trace
     if transacao.tipo == 'd':
         transacao.valor = abs(transacao.valor) * -1
     stmt = """
